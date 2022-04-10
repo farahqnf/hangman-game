@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <script src="index.js"></script>
+
+    <div class="game-container">
+        <div class="word" id="word"></div>
+    </div>
+    
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <h2 id="final-message"></h2>
+            <button id="play-button">Play Again</button>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    
+    <div class="info">Coba tebak kata dibawah!</div>
+    <input type="text" placeholder="Guess">
+    <button style="display: none;">Play Again</button>
+    <div class="word"></div>
+    <div class="hangman"></div>
+    <span style="position: absolute;bottom: 10px; left: 10px;">
+        <div class="guessLeft">Guesses Left: <span class="bold">10</span></div>
+        <div class="guessed">Guessed Letters: <span class="bold"></span></div>
+    </span>
+
+    <span style="position: absolute; bottom: 10px; right: 10px; text-align: right;">
+        <div>Streak: <span class="streak bold">0</span></div>
+        <div>Average Score: <span class="score bold">-</span></div>
+    </span>
+</body>
+
+</html>

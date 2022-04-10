@@ -1,0 +1,165 @@
+body {
+    transition: .2s background;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: plum;
+    color: white;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* h1 {
+    margin: 20px 0 0;
+} */
+
+.game-container {
+    padding: 20px 30px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 450px;
+}
+
+.word {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.popup-container {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup{
+    background-color: #2980b9;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.popup button{
+    cursor: pointer;
+    background-color: #fff;
+    color: #2980b9;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.popup button:active{
+    transform: scale(0.98);
+}
+
+.popup button:focus{
+    outline: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    transition: .2s background;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: red;
+    color: white;
+    height: 100vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.info {
+    font-style: italic;
+    text-align: center;
+    color: blue;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+:-ms-input-placeholder {
+    color: black;
+}
+
+:placeholder {
+    color: black;
+}
+
+input, button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1em;
+    margin-top: 10px;
+    background: none;
+    color: white;
+}
+
+button {
+    background: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid black;
+    transition: .2s background;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background: wheat;
+}
+
+.word {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    max-width: 100vw;
+}
+.word span {
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    width: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+} */
